@@ -1,0 +1,213 @@
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+*::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  * {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Netflix Sans';
+    color: #E6E6E6;
+}
+
+body{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+
+.header-nav{
+    width: 90%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    margin: 5%;
+    margin-right: 5%;
+    position: absolute;
+}
+
+.backrop-img{
+    background-image: url(./assets/preview.png);
+    background-size: cover;
+    width: 100%;
+    height: 538px;
+    left: 0px;
+    top: 0px;
+    background-repeat: no-repeat;
+    padding: 64px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header-menu{
+    display: flex;
+    background-color: transparent;
+    align-items: baseline;
+    justify-content: space-evenly;
+    color: #E6E6E6;
+    width: 100%;
+    height: 25px;
+}
+
+.header-menu div a{
+    color: #E6E6E6;
+    text-decoration: none;
+}
+
+.header-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu-description{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    color: #E6E6E6;
+    background-color: transparent;
+}
+
+
+/* .menu-description:only-child(1){ 
+    list-style-type: none;
+} */
+
+.menu-buttons{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 0%;
+}
+
+.more-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #E6E6E6;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.play-button{
+    display: flex;
+    background-color: white;
+    width: 87px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    border-color: transparent;
+    border-radius: 2px;
+    border-radius: 5px;
+}
+
+.info-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 53.47px;
+    color: white;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.text-area{
+    color: #E6E6E6;
+    padding: 0;
+    margin: 0% 1%;
+    font-size: 1.2em;
+}
+
+/* começa o main content */
+
+.main-content-section{
+    height: 100%;
+    background-color: black;
+    display: flex;
+    gap: 2%;
+    flex: row;
+    flex-wrap: no-wrap;
+    overflow: scroll;
+    margin: 0% 1% 0% 1%;
+}
+
+.Section-title{
+    display: flex;
+    background-color: transparent;
+    margin: 1%;
+    padding: 10px 0px 5px 0px;
+}
+
+.main-content-card{
+    position: relative;
+    width: max-content;
+    height: max-content;
+}
+
+.main-content-section-gap{
+    height: 100%;
+    background-color: black;
+    display: flex;
+    gap: 2%;
+    flex: row;
+    flex-wrap: no-wrap;
+    overflow: scroll;
+    margin-bottom: 100px;
+}
+
+.main-content-play-button{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    padding: 12% 12% 10% 16%;
+    box-sizing: border-box;
+    border: 1px solid #E6E6E6;
+    border-radius: 70%;
+    bottom: 40%;
+    left: 25%;
+}
+
+.card-description{
+    position: absolute;
+    background-color: transparent;
+    top: 86%;
+    left: 35%;
+    font-size: 0.8em;
+}
+
+
+/* footer */
+
+.footer-menu{
+    display: flex;
+    background-color: black;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+}
+
+.footer-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: #E6E6E6;
+    border-color: transparent;
+}
+
+/* finito footer */
+
+
